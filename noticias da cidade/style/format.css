@@ -5,3 +5,7 @@
     text-decoration: none;
     list-style: none;
 }
+
+a, a:hover, a:active, a:visited {
+    color: black;
+}
