@@ -1,0 +1,55 @@
+.Box-site{
+    width: 60%;
+    margin: 0 auto;
+}
+
+header {
+    background: url(../img/fundo.png) repeat-x bottom, #294c71;
+}
+
+header div.Box-site {
+    min-height: 230px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+
+
+header div#box-nav-menu {
+    align-items: flex-start;
+}
+
+
+
+header img#logo {
+    margin-top: 30px;
+}
+
+nav#menu-principal {
+    width: fit-content;
+    margin-top: 35px;
+    text-align: center;
+}
+
+nav#menu-principal ul {
+    background-color: #de003e;
+}
+
+nav#menu-principal a {
+    display: inline-block;
+    padding: 9px 18px;
+    background-color: #de003e;
+    color: white;
+    transition: background 0.3s
+}nav#menu-principal a:hover {
+    transition: background 0.3s;
+    background-color: #C7003F;
+}
+
+#box-img-detalhe-topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+}
+
