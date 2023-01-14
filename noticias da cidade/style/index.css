@@ -1,0 +1,45 @@
+#box-conteudo {
+    border: solid 1px rgb(0, 13, 255);
+    display:flex;
+    justify-content: center;
+}
+
+.container-title {
+    border: solid 1px rgb(43, 255, 0);
+}
+
+
+.container-title h3{
+    background-color: #294c71;
+    color: white;
+    padding: 5px;
+}
+
+
+#box-conteudo aside {
+    width: 30%;
+    padding-top: 15px;
+}
+
+#box-conteudo aside .box-conteudo-aside {
+    height: 300px;
+}
+
+
+#box-conteudo section {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    height: 600px;
+}
+
+#box-conteudo section article{
+    margin: 15px;
+    
+}
+
+
+section .container-title {
+    width: 42%;
+}
