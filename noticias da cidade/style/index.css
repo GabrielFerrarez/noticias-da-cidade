@@ -4,42 +4,38 @@
     justify-content: center;
 }
 
-.container-title {
-    border: solid 1px rgb(43, 255, 0);
-}
-
-
 .container-title h3{
     background-color: #294c71;
     color: white;
     padding: 5px;
 }
 
-
 #box-conteudo aside {
+    display: flex;
+    flex-direction: column;
     width: 30%;
-    padding-top: 15px;
 }
 
-#box-conteudo aside .box-conteudo-aside {
-    height: 300px;
+#box-conteudo aside div.box-conteudo-aside {
+    border: 1px solid red;
+    margin: 15px;
 }
 
+div.box-conteudo-aside li {
+    padding: 5px;
+}
 
 #box-conteudo section {
     width: 70%;
+    border: 1px solid red;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-left: 15px;
-    height: 600px;
 }
 
-#box-conteudo section article{
+#box-conteudo section article {
+    border: 1px solid red;
+    width: 40%;
+    height: 45%;
     margin: 15px;
-    
-}
-
-
-section .container-title {
-    width: 42%;
 }
