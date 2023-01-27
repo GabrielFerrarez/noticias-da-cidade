@@ -1,5 +1,4 @@
 #box-conteudo {
-    border: solid 1px rgb(0, 13, 255);
     display:flex;
     justify-content: center;
 }
@@ -17,7 +16,6 @@
 }
 
 #box-conteudo aside div.box-conteudo-aside {
-    border: 1px solid red;
     margin: 15px;
 }
 
@@ -27,15 +25,68 @@ div.box-conteudo-aside li {
 
 #box-conteudo section {
     width: 70%;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 #box-conteudo section article {
-    border: 1px solid red;
-    width: 40%;
-    height: 45%;
-    margin: 15px;
+    width: 45%;
+    margin: 2%;
+    min-width: 219px;
+}
+
+article .conteudo-article {
+    margin-top: 20px;
+}
+
+article .conteudo-article h5 {
+    background-color: red;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 1%;
+    color: white;
+    text-transform: uppercase;
+}
+
+article .conteudo-article img{
+    width: 100%;
+    margin: 5px 0;
+}
+
+a.ler-mais {
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 999px) {
+    #box-conteudo section article {
+        width: 45%;
+    }
+
+    #box-conteudo {
+        flex-direction: column-reverse;
+    }
+
+    #box-conteudo aside {
+        width: 100%;
+    }
+
+    #box-conteudo aside div {
+        margin: 0;
+    }
+    
+
+    #box-conteudo section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    #box-conteudo section article {
+        width: 100%;
+    }
 }
